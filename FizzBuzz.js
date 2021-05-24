@@ -13,6 +13,10 @@ for (i = 1; i <= n; i++) {
         result += 'bang';
     }
 
+    if (i % 11 == 0) {
+        result = 'bong';
+    }
+
     if (result === '') {
         console.log(i);
     } else {
